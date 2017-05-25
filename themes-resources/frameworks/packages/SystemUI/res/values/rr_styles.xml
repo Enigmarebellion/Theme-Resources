@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2014-2015 RR
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <style name="TextAppearance.StatusBar.WeatherTemp" parent="@*android:style/TextAppearance.StatusBar">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.Expanded.WeatherTemp">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/status_bar_temperature_text_color</item>
+    </style>
+	
+    <style name="TextAppearance.StatusBar.Expanded.WeatherLocation">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/status_bar_temperature_location_text_color</item>
+    </style>
+
+    <style name="ListTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:listSelector">@*android:color/transparent</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+
+    <style name="TextAppearance.StatusBar.PhoneTicker"
+        parent="@*android:style/TextAppearance.StatusBar.Ticker">
+        <!-- Note: must be dp to fit in status bar -->
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.RecentsN" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.TaskManager" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">13dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Screenshot Crop & Share -->
+    <style name="CropDialogAnimations">
+        <item name="android:windowEnterAnimation">@anim/crop_in</item>
+        <item name="android:windowExitAnimation">@anim/crop_out</item>
+    </style>
+
+    <style name="ScreenshotEditorStyle" parent="@android:style/Theme.Material" >
+    </style>
+
+    <style name="BatteryMeterViewDrawable.Solid"/>
+
+    <!-- Substratum -->
+    <!-- Switch bar text appearance -->
+    <style name="TextAppearance.SwitchBar" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <!-- Slim recents -->
+    <style name="card_header_favorite_icon">
+        <item name="android:layout_width">@dimen/recent_favorite_icon_size</item>
+        <item name="android:layout_height">@dimen/recent_favorite_icon_size</item>
+        <item name="android:layout_marginStart">-16dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <style name="ListTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:listSelector">@*android:color/transparent</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+   <style name="TextAppearance.StatusBar.Expanded.Weather">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.Expanded.Weather.Detailed">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Phyisical Keyboard Dialog style -->
+    <style name="KeyboardShortcutsDialog" parent="@*android:style/Theme.DeviceDefault.Light" />
+
+
+</resources>
